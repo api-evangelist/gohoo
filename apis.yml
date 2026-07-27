@@ -1,7 +1,25 @@
 aid: gohoo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gohoo.png
 name: gohoo
-description: gohoo is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: gohoo was a boutique e-commerce company based in Hangzhou, China (founded
+  circa 2001) that linked high-quality goods to supplier channels by integrating the
+  factory supply chain to reduce brand premium. It raised a seed round in 2018 and
+  a Series A in March 2019 with backing from Qiming Venture Partners and Bertelsmann
+  Asia Investments. The company is no longer active (deadpooled), and its gohoo.com
+  domain now redirects to an atom.com domain-for-sale landing page. No live company
+  website, developer portal, documentation, or public API surface exists, so there
+  is nothing to enrich beyond this honest identity record.
 url: https://raw.githubusercontent.com/api-evangelist/gohoo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,20 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Deadpooled e-commerce company; gohoo.com redirects to atom.com domain-for-sale
+  page (302). No API surface. Enrichment probe 2026-07-19: api./developer./docs. subdomains
+  do not resolve; /.well-known/security.txt 404.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- E-Commerce
+- Retail
+- Supply Chain
+- China
+- Deadpooled
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://gohoo.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
