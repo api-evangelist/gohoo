@@ -31,7 +31,7 @@ x-status: defunct
 x-status-note: 'Deadpooled e-commerce company; gohoo.com redirects to atom.com domain-for-sale
   page (302). No API surface. Enrichment probe 2026-07-19: api./developer./docs. subdomains
   do not resolve; /.well-known/security.txt 404.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
